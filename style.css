@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.main-container {
+  display: flex;
+  gap: 25px;
+}
+
+.container {
+  max-width: 35%;
+  background-color: rgba(221, 232, 234, 255);
+  height: 700px;
+}
+
+.container p {
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px 30px;
+}
+
+.container p {
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px 30px;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 45px;
+}
+
+h2 {
+  margin: 0;
+  margin-left: 26%;
+  margin-top: 50px;
+  font-size: 20px;
+  padding: 15px 0px;
+  font-weight: 100;
+}
+h4 {
+  margin-bottom: 50%;
+  margin-left: 60%;
+  font-size: 20px;
+  padding: 15px 0px;
+  font-weight: 100;
+}
+
+.div-left {
+  padding: 10px 8em;
+}
+
+button {
+  border-radius: 20px;
+  border-color: #0000;
+  padding: 8px 0px;
+  width: 49%;
+  background-color: #fff;
+}
+
+.imges img {
+  width: 60%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  height: 90px;
+  border: 1px solid #fff;
+}
+
+.imges {
+  padding: 20px 0px 0px;
+}
+
+img.right-img {
+  position: absolute;
+  top: 36%;
+  height: 445px;
+  width: 35%;
+  right: 45%;
+  border-radius: 25px;
+}
+
+.Div-container div {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 5%;
+}
+
+#name {
+  margin-top: -25px;
+  margin-left: 2px;
+  font-family: sans-serif;
+}
+
+.checked {
+  color: #ff7a34;
+}
+
+.main-container .star-icons {
+  margin-top: 14%;
+  margin-left: -432px;
+}
+
+.main-container .price {
+  margin-left: 30%;
+  margin-top: 14%;
+  font-size: 20px;
+}
+
+.center-content .paragraph {
+  text-align: justify;
+  margin-top: -80%;
+  margin-left: 57%;
+  margin-right: 20px;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+form #decrease {
+  margin-right: -15px;
+  border-radius: 8px 0 0 8px;
+}
+
+form #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+}
+
+form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

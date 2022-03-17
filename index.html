@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap,Montserrat:wght@100&display=swap"
+        rel="stylesheet">
+    
+        <!-- Javascript -->
+    <script src="index.js"></script>
+        <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document 1</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <p>home /<b> Product Detail Page</b></p>
+            <h2>Tags :</h2>
+            <div class="div-left">
+                <button>Kitchen</button>
+                <button>L-Shape</button><br><br>
+                <button>Sustainable</button>
+                <div class="imges">
+                    <img src="image/plywood.jpg">
+                    <img src="image/plywood2.jpg">
+                    <img src="image/plywood3.jpg">
+                    <img src="image/plywood4.jpg">
+                    <span class="fa-icon"><i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <img src="image/plywood5.jpg" class="right-img">
+            </div>
+        </div>
+        <div class="Div-container">
+            <div>
+                <p>navigation Category A &nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></p>
+                <p>Navigation Item A </p>
+            </div>
+            <h1>Product Name ABC</h1>
+
+            <p id="name">Product Cateogory Name (Example:Plywood)</p>
+
+        </div>
+        <div class="star-icons">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span>4.4</span>
+        </div>
+        <h3 class="price"><span>&#8377;</span>2110.00<span>per sheet</span></h3>
+    </div>
+    <div class="center-content">
+        <h4></h4>
+        <p class="paragraph">
+            It is a long established fact that a reader will be distracted by the readable content of a
+            page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content here', making it look like readable
+            English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+            text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions
+            have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+    </div>
+
+    <div>
+        <form>
+
+            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+            <input type="number" id="number" value="0" />
+            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+        </form>
+
+    </div>
+</body>
+
+</html>
